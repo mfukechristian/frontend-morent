@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.header__container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo h1 {
+  cursor: pointer;
+  color: #3563e9;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header__icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  transition: border 0.3s ease;
+  cursor: pointer;
+}
+
+.header__icon:hover {
+  border: 1px solid #7a96b3;
+}
+
+.header__icon svg {
+  color: #9ca3af;
+  font-size: 1.2rem;
+}
+
+.header__profile img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}

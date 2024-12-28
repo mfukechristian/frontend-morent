@@ -12,3 +12,7 @@ body {
   font-weight: 400;
   color: #90a3bf;
 }
+
+main {
+  min-height: 80vh;
+}
