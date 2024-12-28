@@ -1,0 +1,106 @@
+.car-card {
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 250px;
+  background-color: #fff;
+}
+
+.car-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.car-card__title h3 {
+  color: #1a202c;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.car-card__title span {
+  color: #90a3bf;
+  font-size: 0.875rem;
+}
+
+.car-card__favorite {
+  background: none;
+  border: none;
+  color: #90a3bf;
+  cursor: pointer;
+  padding: 0;
+}
+
+.car-card__favorite:hover {
+  color: #ed3f3f;
+}
+
+.car-card__image {
+  width: 80%;
+  height: 64px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.car-card__specs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.car-card__spec {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #90a3bf;
+  font-size: 0.875rem;
+}
+
+.car-card__spec svg {
+  font-size: 1rem;
+}
+
+.car-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car-card__price h4 {
+  color: #1a202c;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.car-card__price h4 span {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #90a3bf;
+}
+
+.car-card__rent-button {
+  background: #3563e9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.car-card__rent-button:hover {
+  background: #2851d8;
+}

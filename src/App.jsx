@@ -1,16 +1,17 @@
-import Header from './components/header/Header'
-import Footer from './components/footer/Footer'
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import CarListScreen from "./screens/carListScreen/CarListScreen";
 
 function App() {
   return (
     <div>
       <Header />
       <main>
-        <h1>Welcome to Morent App</h1>
+        <CarListScreen />
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

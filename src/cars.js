@@ -6,7 +6,7 @@ const cars = [
     transmission: "Manual",
     seats: 2,
     pricePerDay: 99,
-    image: "/images/Koenigsegg.png"
+    image: "/images/Koenigsegg.png",
   },
   {
     name: "Nissan GT-R",
@@ -15,7 +15,7 @@ const cars = [
     transmission: "Manual",
     seats: 2,
     pricePerDay: 80,
-    image: "/images/Nissan GT-R.png"
+    image: "/images/Nissan GT-R.png",
   },
   {
     name: "Rolls-Royce",
@@ -24,16 +24,7 @@ const cars = [
     transmission: "Manual",
     seats: 4,
     pricePerDay: 96,
-    image: "/images/Rolls-Royce.png"
-  },
-  {
-    name: "All New Rush",
-    type: "SUV",
-    fuel: "70L",
-    transmission: "Manual",
-    seats: 6,
-    pricePerDay: 72,
-    image: "/images/All-New-Rush.png"
+    image: "/images/Rolls-Royce.png",
   },
   {
     name: "CR-V",
@@ -42,7 +33,7 @@ const cars = [
     transmission: "Manual",
     seats: 6,
     pricePerDay: 80,
-    image: "/images/CR-V.png"
+    image: "/images/CR-V.png",
   },
   {
     name: "All New Terios",
@@ -51,7 +42,7 @@ const cars = [
     transmission: "Manual",
     seats: 6,
     pricePerDay: 74,
-    image: "/images/All-New-Terios.png"
+    image: "/images/All-New-Terios.png",
   },
   {
     name: "MG ZX Exclusive",
@@ -60,7 +51,7 @@ const cars = [
     transmission: "Manual",
     seats: 4,
     pricePerDay: 76,
-    image: "/images/MG-ZX-Exclusive.png"
+    image: "/images/MG-ZX-Exclusive.png",
   },
   {
     name: "New MG ZS",
@@ -69,7 +60,7 @@ const cars = [
     transmission: "Manual",
     seats: 6,
     pricePerDay: 80,
-    image: "/images/New-MG-ZS.png"
+    image: "/images/New-MG-ZS.png",
   },
   {
     name: "MG ZX Excite",
@@ -78,7 +69,7 @@ const cars = [
     transmission: "Manual",
     seats: 4,
     pricePerDay: 74,
-    image: "/images/MG-ZX-Excite.png"
+    image: "/images/MG-ZX-Excite.png",
   },
 ];
 
